@@ -18,6 +18,14 @@
     background-color: #f6f6f6;
   }
   
+  @font-face {
+    font-family: 'mutiara';
+    src: url('fonts/mutiara_calligraphy_font-webfont.woff') format('woff2'),
+         url('fonts/mutiara_calligraphy_font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
   header{
     background-image: url("top-backround.jpg");
     background-repeat: no-repeat;
@@ -34,6 +42,22 @@
     z-index: 10;
 }
   
+.page-title{
+    position: absolute;
+    top: 12vh;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    font-family: 'mutiara';
+    font-size: clamp(6rem, 6vw, 10rem);
+    color: #1f4221;
+    pointer-events: none;
+    z-index: 11;
+    font-weight: 100;
+
+  }
+  
+
 main {
     height: 30vh;
     background-color: f6f6f6; /* or white if you want contrast */
