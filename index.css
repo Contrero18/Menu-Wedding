@@ -17,23 +17,7 @@
     font-family: sans-serif;
     background-color: #f6f6f6;
   }
-  
-  #langBar{
-    position: fixed;
-    top: 8px; right: 12px;
-    z-index: 30;
-    display: flex; gap: 6px;
-  }
-  .lang-btn{
-    padding: 4px 10px;
-    border: none;
-    border-radius: 6px;
-    font-size: .85rem;
-    cursor: pointer;
-    background: rgba(255,255,255,.85);
-    color:#1f4221;
-  }
-  .lang-btn.active{ background:#1f4221; color:#fff; }
+
 
   @font-face {
     font-family: 'mutiara';

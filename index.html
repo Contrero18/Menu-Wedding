@@ -11,12 +11,144 @@
 </head>
 
 <body>
-    <nav id="langBar">
-        <button data-lang="ro" class="lang-btn active">Română</button>
-        <button data-lang="it" class="lang-btn">Italiano</button>
-        <button data-lang="en" class="lang-btn">English</button>
-      </nav>
-      
+
+<header>
+    <h1 class="page-title">Meniu</h1>
+</header>
+
+<main>
+</main>
+
+<div class="buttons">
+
+    <button onclick="togglePopup1()" class="buton">Carne</button>
+    <button onclick="togglePopup2()" class="buton">Ovo-Lacto cu Pește</button>
+    <button onclick="togglePopup3()" class="buton">Ovo-Lacto-Vegetarian</button>
+    <button onclick="togglePopup4()" class="buton">Jocuri</button>
+</div>
+
+
+<div class="popup" id="popup1">
+    <div class="overlay"></div>
+    <div class="content">
+        <div class="close-btn" onclick="togglePopup1()">&times;</div>
+        <h1>Meniu Carne</h1>
+        <h3>Antreu rece:</h3>
+        <p>• Riletă din pulpă de pui, piept de pui și dovleac, coaptă cu pesto de roșii<br>
+            • Prăjitură de brânzeturi asortate cu nucă și merișoare<br>
+            • Specialitate pané cu spumă de hrean<br>
+            • Vol au vent cu salată din piept de pui<br>
+            • Ruladă de curcan cu fistic în mantie cu piure de morcov<br>
+            • Mousse de brânză cu avocado și somon fumé<br>
+            • Confit din piept de prepeliță în tartaletă, cu sos special<br>
+            • Mousse de brânzeturi fine, în mantie fresh<br>
+            • Mușchi de vită cu tartar de avocado și mango<br>
+            • Roșii cherry<br>
+            • Castravete<br>
+            • Măsline</p>
+        <h3>Antreu cald:</h3>
+        <p>• Balotină de curcan cu muşchi de vită în crumble de verdeţuri<br>
+            • Piure de rădăcinoase<br>
+            • Legume crocante<br>
+            • Sos de brânzeturi</p>
+        <h3>Fel principal:</h3>
+        <p>• Rasol de viţel<br>
+            • Cartofi aurii<br>
+            • Legume aromatizate<br>
+            • Sos Rouge Royal</p>
+        <h3>Tort:</h3>
+        <p>• Mousse fin de cocos cu inserție de piersică, învelit în mantie de ciocolată albă și perle delicate</p>
+    </div>
+    </div>
+
+    <div class="popup" id="popup2">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup2()">&times;</div>
+            <h1>Meniu </h1>
+            <h3>Antreu rece:</h3>
+            <p>• Mousse de avocado și somon fumé<br>
+                • Prăjitură de brânzeturi cu merișoare și nuci<br>
+                • Tartină cu humus<br>
+                • Prăjitură de brânzeturi în straturi și jeleu de sweet chilly<br>
+                • Bruschete cu roșii<br>
+                • Ruladă cu spanac și cașcaval<br>
+                • Terină brânzeturi fine în mantie fresh<br>
+                • Crochete vegetale<br>
+                • Coșuleț cu salată de vinete<br>
+                • Roșii cherry<br>
+                • Castravete<br>
+                • Măsline</p>
+            <h3>Antreu cald:</h3>
+            <p>• Ruladă vegetală cu brânză feta<br>
+                • Cartofi copți<br>
+                • Salată de ardei copți</p>
+            <h3>Fel principal:</h3>
+            <p>• Somon în fulgi de migdale<br>
+                • Legume la wok în stil asiatic<br>
+                • Sos citrus fresh</p>
+            <h3>Tort:</h3>
+            <p>• Mousse fin de cocos cu inserție de piersică, învelit în mantie de ciocolată albă și perle delicate</p>
+        </div>
+        </div>
+
+        <div class="popup" id="popup3">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="togglePopup3()">&times;</div>
+                <h1>Meniu </h1>
+                <h3>Antreu rece:</h3>
+                <p>• Prăjitură de brânzeturi în straturi cu jeleu sweet chilly<br>
+                    • Ruladă spanac și cașcaval<br>
+                    • Crochete vegetale<br>
+                    • Coșuleț cu salată de vinete<br>
+                    • Bruschete cu roșii<br>
+                    • Prăjitură de brânzeturi cu merișoare și nuci<br>
+                    • Tartină cu humus<br>
+                    • Terină brânzeturi fine în mantie fresh<br>
+                    • Bon bon de mazăre<br>
+                    • Roșii cherry<br>
+                    • Castravete<br>
+                    • Măsline</p>
+                <h3>Antreu cald:</h3>
+                <p>• Ruladă vegetală cu brânză feta<br>
+                    • Cartofi copți<br>
+                    • Salată de ardei copți</p>
+                <h3>Fel principal:</h3>
+                <p>• Sărmăluțe vegetale<br>
+                    • Mămăliguță și smântână</p>
+                <h3>Tort:</h3>
+                <p>• Mousse fin de cocos cu inserție de piersică, învelit în mantie de ciocolată albă și perle delicate</p>
+            </div>
+            </div>
+
+            <div class="popup" id="popup4">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup4()">&times;</div>
+                    <h1>Jocuri </h1>
+                    <h3>Quizz - 25 de intrebari</h3>
+                    <h4>Trei premii</h4>
+                    <h3>CEL MAI RAPID SELFIE</h3>
+                    <h4>Un premiu</h4>
+                    <h3>PANTOFII IN MIJLOC</h3>
+                    <h4>Doua premii</h4>
+                    <h3>GASESTE INVITATII</h3>
+                    <h4>Doua premii</h4>
+                    <h3>CURSA LEGATĂ</h3>
+                    <h4>Doua premii</h4>
+                    <h3>CINE ARE OBIECTUL?</h3>
+                    <h4>Doua premii</h4>
+                    <h3>SCAUNELE MUZICALE</h3>
+                    <h4>Doua premii</h4>
+                </div>
+                </div>
+
+<footer>
+</footer>
+
+<br>
+
 </body>
 
 </html>
