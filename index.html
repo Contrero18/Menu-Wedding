@@ -5,7 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MENIU</title>
   <link rel="stylesheet" href="index.css">
-  <script src="index.js"></script>
+  <script type="text/javascript">
+    function togglePopup1(){
+    document.getElementById("popup1").classList.toggle("active");
+    }
+  </script>
 </head>
 
 <body>
@@ -15,6 +19,30 @@
 
 <main>
 </main>
+
+<div class="buttons">
+
+    <button onclick="togglePopup1()" class="buton">Carne</button>
+    <button onclick="togglePopup1()" class="buton">Ovo-Lacto cu Pește</button>
+    <button onclick="togglePopup1()" class="buton">Ovo-Lacto-Vegetarian</button>
+</div>
+
+
+<div class="popup" id="popup1">
+    <div class="overlay"></div>
+    <div class="content">
+        <div class="close-btn" onclick="togglePopup1()">&times;</div>
+        <h1>Tigrul siberian</h1>
+        <p>Tigrul siberian, numit și tigru de Amur, tigru coreean, tigru nord chinezesc sau tigru manciurian, este o populație de tigri din subspecia Panthera tigris tigris ce este originară din Orientul Îndepărtat Rus, nord-estul Chinei și posibil și Coreea de Nord. Cu toate că în trecut popula Asia centrală și vestică și estul Rusiei, acum are un teritoriu de răspândire limitat: regiunea Amur-Ussuri în estul Siberiei, unde acum este protejat. Este cel mai mare dintre cele opt subspecii de tigru și cea mai mare felină în viață. Un studiu genetic din anul 2009 arată că tigrii siberieni sunt aproape identici cu tigrii caspici, o populație acum dispărută din vest, despre care se credea că sunt o subspecie distinctă.
+            Femelă cu puiul său în Gradina Zoologică din Buffalo, SUA
+            Femelele nasc 2-4 pui, după o perioadă de gestație de 104 zile.
+            Tigrii siberieni sunt vânători solitari. Puii stau cu mama lor cel mult doi ani, apoi pornesc să își ia în stăpânire un teritoriu propriu. Masculii se îndepărtează de locul unde s-au născut, însă femelele rămân adesea aproape de teritoriul mamei.
+            Tigrul este o specie în pericol de dispariție. Tigrul siberian și tigrul chinezesc sunt populații extrem de periclitate, aduse aproape în pragul dispariției.
+            Ușor de recunoscut după blana lor vărgată, cei mai mulți tigri trăiesc în păduri sau în zone cu multă iarbă. Sunt înotători puternici și adesea se scaldă în lacuri sau râuri. Până în ultimele decenii au existat opt subspecii distincte de tigru. La ora actuală au mai rămas însă numai cinci, dintre care tigrul siberian se confruntă cu pericolul iminent al dispariției.
+        </p>
+    </div>
+    </div>
+
 
 <footer>
 </footer>
