@@ -34,6 +34,14 @@
     z-index: 10;
 }
   
+main {
+    height: 30vh;
+    background-color: f6f6f6; /* or white if you want contrast */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   footer {
     background-image: url("backround.jpg");
     background-repeat: no-repeat;
