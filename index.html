@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,15 @@
   <script type="text/javascript">
     function togglePopup1(){
     document.getElementById("popup1").classList.toggle("active");
+    }
+    function togglePopup2(){
+    document.getElementById("popup2").classList.toggle("active");
+    }
+    function togglePopup3(){
+    document.getElementById("popup3").classList.toggle("active");
+    }
+    function togglePopup4(){
+    document.getElementById("popup4").classList.toggle("active");
     }
   </script>
 </head>
@@ -23,8 +33,9 @@
 <div class="buttons">
 
     <button onclick="togglePopup1()" class="buton">Carne</button>
-    <button onclick="togglePopup1()" class="buton">Ovo-Lacto cu Pește</button>
-    <button onclick="togglePopup1()" class="buton">Ovo-Lacto-Vegetarian</button>
+    <button onclick="togglePopup2()" class="buton">Ovo-Lacto cu Pește</button>
+    <button onclick="togglePopup3()" class="buton">Ovo-Lacto-Vegetarian</button>
+    <button onclick="togglePopup4()" class="buton">Jocuri</button>
 </div>
 
 
@@ -32,20 +43,116 @@
     <div class="overlay"></div>
     <div class="content">
         <div class="close-btn" onclick="togglePopup1()">&times;</div>
-        <h1>Tigrul siberian</h1>
-        <p>Tigrul siberian, numit și tigru de Amur, tigru coreean, tigru nord chinezesc sau tigru manciurian, este o populație de tigri din subspecia Panthera tigris tigris ce este originară din Orientul Îndepărtat Rus, nord-estul Chinei și posibil și Coreea de Nord. Cu toate că în trecut popula Asia centrală și vestică și estul Rusiei, acum are un teritoriu de răspândire limitat: regiunea Amur-Ussuri în estul Siberiei, unde acum este protejat. Este cel mai mare dintre cele opt subspecii de tigru și cea mai mare felină în viață. Un studiu genetic din anul 2009 arată că tigrii siberieni sunt aproape identici cu tigrii caspici, o populație acum dispărută din vest, despre care se credea că sunt o subspecie distinctă.
-            Femelă cu puiul său în Gradina Zoologică din Buffalo, SUA
-            Femelele nasc 2-4 pui, după o perioadă de gestație de 104 zile.
-            Tigrii siberieni sunt vânători solitari. Puii stau cu mama lor cel mult doi ani, apoi pornesc să își ia în stăpânire un teritoriu propriu. Masculii se îndepărtează de locul unde s-au născut, însă femelele rămân adesea aproape de teritoriul mamei.
-            Tigrul este o specie în pericol de dispariție. Tigrul siberian și tigrul chinezesc sunt populații extrem de periclitate, aduse aproape în pragul dispariției.
-            Ușor de recunoscut după blana lor vărgată, cei mai mulți tigri trăiesc în păduri sau în zone cu multă iarbă. Sunt înotători puternici și adesea se scaldă în lacuri sau râuri. Până în ultimele decenii au existat opt subspecii distincte de tigru. La ora actuală au mai rămas însă numai cinci, dintre care tigrul siberian se confruntă cu pericolul iminent al dispariției.
-        </p>
+        <h1>Meniu Carne</h1>
+        <h3>Antreu rece:</h3>
+        <p>• Riletă din pulpă de pui, piept de pui și dovleac, coaptă cu pesto de roșii<br>
+            • Prăjitură de brânzeturi asortate cu nucă și merișoare<br>
+            • Specialitate pané cu spumă de hrean<br>
+            • Vol au vent cu salată din piept de pui<br>
+            • Ruladă de curcan cu fistic în mantie cu piure de morcov<br>
+            • Mousse de brânză cu avocado și somon fumé<br>
+            • Confit din piept de prepeliță în tartaletă, cu sos special<br>
+            • Mousse de brânzeturi fine, în mantie fresh<br>
+            • Mușchi de vită cu tartar de avocado și mango<br>
+            • Roșii cherry<br>
+            • Castravete<br>
+            • Măsline</p>
+        <h3>Antreu cald:</h3>
+        <p>• Balotină de curcan cu muşchi de vită în crumble de verdeţuri<br>
+            • Piure de rădăcinoase<br>
+            • Legume crocante<br>
+            • Sos de brânzeturi</p>
+        <h3>Fel principal:</h3>
+        <p>• Rasol de viţel<br>
+            • Cartofi aurii<br>
+            • Legume aromatizate<br>
+            • Sos Rouge Royal</p>
+        <h3>Tort:</h3>
+        <p>• Mousse fin de cocos cu inserție de piersică, învelit în mantie de ciocolată albă și perle delicate</p>
     </div>
     </div>
 
+    <div class="popup" id="popup2">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup2()">&times;</div>
+            <h1>Meniu </h1>
+            <h3>Antreu rece:</h3>
+            <p>• Mousse de avocado și somon fumé<br>
+                • Prăjitură de brânzeturi cu merișoare și nuci<br>
+                • Tartină cu humus<br>
+                • Prăjitură de brânzeturi în straturi și jeleu de sweet chilly<br>
+                • Bruschete cu roșii<br>
+                • Ruladă cu spanac și cașcaval<br>
+                • Terină brânzeturi fine în mantie fresh<br>
+                • Crochete vegetale<br>
+                • Coșuleț cu salată de vinete<br>
+                • Roșii cherry<br>
+                • Castravete<br>
+                • Măsline</p>
+            <h3>Antreu cald:</h3>
+            <p>• Ruladă vegetală cu brânză feta<br>
+                • Cartofi copți<br>
+                • Salată de ardei copți</p>
+            <h3>Fel principal:</h3>
+            <p>• Somon în fulgi de migdale<br>
+                • Legume la wok în stil asiatic<br>
+                • Sos citrus fresh</p>
+            <h3>Tort:</h3>
+            <p>• Mousse fin de cocos cu inserție de piersică, învelit în mantie de ciocolată albă și perle delicate</p>
+        </div>
+        </div>
+
+        <div class="popup" id="popup3">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="togglePopup3()">&times;</div>
+                <h1>Meniu </h1>
+                <h3>Antreu rece:</h3>
+                <p>• Prăjitură de brânzeturi în straturi cu jeleu sweet chilly<br>
+                    • Ruladă spanac și cașcaval<br>
+                    • Crochete vegetale<br>
+                    • Coșuleț cu salată de vinete<br>
+                    • Bruschete cu roșii<br>
+                    • Prăjitură de brânzeturi cu merișoare și nuci<br>
+                    • Tartină cu humus<br>
+                    • Terină brânzeturi fine în mantie fresh<br>
+                    • Bon bon de mazăre<br>
+                    • Roșii cherry<br>
+                    • Castravete<br>
+                    • Măsline</p>
+                <h3>Antreu cald:</h3>
+                <p>• Ruladă vegetală cu brânză feta<br>
+                    • Cartofi copți<br>
+                    • Salată de ardei copți</p>
+                <h3>Fel principal:</h3>
+                <p>• Sărmăluțe vegetale<br>
+                    • Mămăliguță și smântână</p>
+                <h3>Tort:</h3>
+                <p>• Mousse fin de cocos cu inserție de piersică, învelit în mantie de ciocolată albă și perle delicate</p>
+            </div>
+            </div>
+
+            <div class="popup" id="popup4">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup4()">&times;</div>
+                    <h1>Jocuri </h1>
+                    <h3>Antreu rece:</h3>
+                    <p></p>
+                    <h3>Antreu cald:</h3>
+                    <p></p>
+                    <h3>Fel principal:</h3>
+                    <p></p>
+                    <h3>Tort:</h3>
+                    <p>• Mousse fin de cocos cu inserție delicată de piersică, învelit în mantie de ciocolată albă și perle delicate</p>
+                </div>
+                </div>
 
 <footer>
 </footer>
+
+<br>
 
 </body>
 
