@@ -1,10 +1,51 @@
-body {
-    font-family: sans-serif;
-    background-color: #333;
+ * {
     margin: 0;
-    padding: 20px;
+    padding: 0; /* padding must be a unit (e.g. 10px, not just 10) */
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
   }
-
+  
+  html, body {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden; /* disables scrolling */
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+  
+  header {
+    background-image: url("top-backround.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+  }
+  
+  main {
+    flex: 1;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #333; /* default text color in main */
+  }
+  
+  footer {
+    background-image: url("backround.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    height: 30vh;
+    width: 100%;
+  }
+  
   h1 {
     color: white;
   }
+  
