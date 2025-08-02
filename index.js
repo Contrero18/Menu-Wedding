@@ -202,7 +202,7 @@ if (lang === 'it') {
           • Torta di formaggi assortiti con noci e mirtilli<br>
           • Specialità pané con mousse di rafano<br>
           • Vol-au-vent con insalata di petto di pollo<br>
-          • Rotolo di tacchino con pistacchi in purea di carote<br>
+          • Rotolo di tacchino con pistacchi in puré di carote<br>
           • Mousse di formaggio con avocado e salmone affumicato<br>
           • Mousse di formaggi raffinati in mantello fresco<br>
           • Filetto di manzo con tartare di avocado e mango<br>
@@ -213,13 +213,13 @@ if (lang === 'it') {
         <h3>Antipasto caldo:</h3>
         <p>
           • Rotolo di tacchino con filetto di manzo in crumble di erbe<br>
-          • Purea di radici<br>
+          • Puré di radici<br>
           • Verdure croccanti<br>
           • Salsa ai formaggi
         </p>
         <h3>Piatto principale:</h3>
         <p>
-          • Bollito di vitello<br>
+          • Steak di vitello<br>
           • Patate dorate<br>
           • Verdure aromatiche<br>
           • Salsa Rouge Royal
@@ -299,7 +299,7 @@ if (lang === 'it') {
         <h3>Piatto principale:</h3>
         <p>
           • Involtini vegetali<br>
-          • Polenta e panna acida
+          • Polenta e panna 
         </p>
         <h3>Torta:</h3>
         <p>
@@ -389,7 +389,7 @@ if (lang === 'en') {
         </p>
         <h3>Main Course:</h3>
         <p>
-          • Veal stew<br>
+          • Beef steak<br>
           • Golden potatoes<br>
           • Aromatic vegetables<br>
           • Rouge Royal sauce
